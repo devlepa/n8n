@@ -1,0 +1,32 @@
+# Archivos de entorno (credenciales, puertos, etc.)
+.env
+.env.*
+
+# Archivos de configuración de n8n (persistencia)
+n8n_data/
+pg_data/
+
+# Backups y dumps
+*.sql
+*.tar
+*.gz
+*.zip
+
+# Logs locales
+*.log
+logs/
+log/
+
+# Archivos temporales de Docker
+.docker/
+docker-compose.override.yml
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
